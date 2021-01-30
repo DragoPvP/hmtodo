@@ -1,6 +1,6 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #000000 50%, #a7ff02 50%);
+  background-image: -webkit-linear-gradient(65deg, #cdac81 50%, #00303f 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -19,7 +19,7 @@ h1 {
 }
 
 #heading {
-  background-color: #9ab117;
+  background-color: #cdac81;
   text-align: center;
 }
 
@@ -41,6 +41,7 @@ input:checked+p {
 
 input[type="checkbox"] {
   margin: 20px;
+  cursor: auto;
 }
 
 p {
@@ -61,11 +62,12 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #6e9110;
+  background-color: #00303f;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
   border-width: 0;
+  cursor: pointer;
 }
 
 input[type="text"] {
@@ -91,7 +93,6 @@ input[type="text"]:focus {
 
 footer {
   color: rgb(11, 0, 109);
-  color: rgb(90, 141, 22);
   text-align: center;
   font-size: 22px;
   font-weight: bold;
