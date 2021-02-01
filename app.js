@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://dragopvp:DRAGOpvp123@cluster0.ws9nw.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://username:password@cluster0.ws9nw.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
